@@ -6,9 +6,9 @@ package wstest
 import (
 	"bufio"
 	"context"
+	http "github.com/bogdanfinn/fhttp"
+	httptest "github.com/bogdanfinn/fhttp/httptest"
 	"net"
-	"net/http"
-	"net/http/httptest"
 
 	"nhooyr.io/websocket"
 )

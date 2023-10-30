@@ -6,9 +6,9 @@ package websocket
 import (
 	"bufio"
 	"errors"
+	http "github.com/bogdanfinn/fhttp"
+	httptest "github.com/bogdanfinn/fhttp/httptest"
 	"net"
-	"net/http"
-	"net/http/httptest"
 	"strings"
 	"testing"
 

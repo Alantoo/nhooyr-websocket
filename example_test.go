@@ -2,8 +2,8 @@ package websocket_test
 
 import (
 	"context"
+	http "github.com/bogdanfinn/fhttp"
 	"log"
-	"net/http"
 	"time"
 
 	"nhooyr.io/websocket"
